@@ -18,13 +18,11 @@ const getIDs =async() =>
  async function print(){
        const IDs = await getIDs()
        const recipe = await getRecipe(IDs[2])
-    console.log(IDs);
-    console.log(recipe)
+       console.log(IDs);
+       console.log(recipe)
     
 }  
-catch(error){
-    console.log(error)
-}
+
 print()
 //    getIDs().then((IDs) => {
 //    console.log(IDs);
